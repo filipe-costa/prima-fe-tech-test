@@ -4,6 +4,10 @@ This project uses React with Vite, Vitest, React Testing Library and CSS Modules
 
 ## Setup
 
+### Requirements
+
+- Node v23
+
 ### Installation
 
 `npm install`

@@ -1,0 +1,17 @@
+.gridItem {
+  list-style-type: none;
+}
+
+.gridItem > a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.icon {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  padding: 0.3rem;
+}

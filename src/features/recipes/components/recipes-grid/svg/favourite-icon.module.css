@@ -1,0 +1,16 @@
+.heartIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+  fill: white;
+  stroke: none;
+  transition: fill 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.heartIcon:hover {
+  transform: scale(1.1);
+}
+
+.favourite {
+  fill: red;
+}

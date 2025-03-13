@@ -1,0 +1,12 @@
+.field {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.field:focus {
+  border-color: #007bff;
+}

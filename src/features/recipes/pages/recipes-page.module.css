@@ -1,0 +1,17 @@
+.content {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.section {
+  margin-top: 1rem;
+}
+
+.section > input:first-child {
+  margin-bottom: 1rem;
+}

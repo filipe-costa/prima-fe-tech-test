@@ -1,0 +1,20 @@
+.gridContainer {
+  display: grid;
+  padding: 0;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .gridContainer {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .gridContainer {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+  }
+}

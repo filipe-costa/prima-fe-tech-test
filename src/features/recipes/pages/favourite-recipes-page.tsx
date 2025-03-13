@@ -10,7 +10,7 @@ export const FavouriteRecipesPage = () => {
   return (
     <Container>
       <main className={styles.content}>
-        <h1 className={styles.title}>Recipe Finder</h1>
+        <h1 className={styles.title}>Your favourite recipes</h1>
         <section className={styles.section}>
           {favourites.length > 0 ? (
             <RecipesGrid
